@@ -3,9 +3,12 @@
 #include "Game2.h"
 #include "Game3.h"
 #include "Game4.h"
-
+IMAGE cover;
 int main() {
 	initgraph(WIN_WIDTH, WIN_HEIGHT);
+	loadimage(&cover, _T("./images/cover.png"), WIN_WIDTH, WIN_HEIGHT);
+	putimage(0, 0, &cover);
+	Sleep(3000);
 	showPicture(0);
 	showPicture(1);
 	Door();
