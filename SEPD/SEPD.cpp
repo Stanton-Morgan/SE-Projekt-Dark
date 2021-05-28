@@ -11,6 +11,7 @@ int main() {
 	Door();
 	showPicture(2);
 	showPicture(3);
+	showPicture(16);
 	Door();
 	RunGame1();
 	showPicture(4);

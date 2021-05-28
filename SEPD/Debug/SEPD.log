@@ -1,9 +1,2 @@
-﻿  Game1.cpp
-D:\Visual Studio\SEPD\SEPD\Game1.cpp(40,5): warning C4091: “”: 没有声明变量时忽略“void”的左侧
-D:\Visual Studio\SEPD\SEPD\Game1.cpp(1380,13): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
-D:\Visual Studio\SEPD\SEPD\Game1.cpp(192,8): warning C4101: “timeStr”: 未引用的局部变量
-  SEPD.cpp
-  正在生成代码...
-D:\Visual Studio\SEPD\SEPD\Game1.cpp(147): warning C4715: “game_over”: 不是所有的控件路径都返回值
-D:\Visual Studio\SEPD\SEPD\Game1.cpp(2455): warning C4715: “RunGame1”: 不是所有的控件路径都返回值
+﻿  SEPD.cpp
   SEPD.vcxproj -> D:\Visual Studio\SEPD\Debug\SEPD.exe
