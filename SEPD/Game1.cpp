@@ -42,8 +42,9 @@ void;
 int time_sleep = 30;
 IMAGE juan1, juan2, dui1, dui2;
 int r[10] = { 0,0,0,0,0,0,0,0,0,0 };
-int r_x[11] = { 0,179,380,349,500,580,700,300,899,0,0 };
-int r_y[11] = { 0,200,700,500,400,820,400,550,766,0,0 };
+int r_x[11] = { 0,800,880,700,690,600,700,300,999,0,0 };
+int r_y[11] = { 0,450,430,500,360,400,300,400,466,0,0 };
+
 int score_game_of_yxb = 0;
 int score() {
 	int sum = 0;
@@ -141,7 +142,7 @@ int game_over(int a) {
 	else
 	{
 		//score();
-		
+
 
 	}
 }//ÅÐ¶¨ÓÎÏ·½áÊø
@@ -159,7 +160,7 @@ int RunGame1()
 	loadimage(&BG, _T("./images/Game1/bg2.jpg"));
 	loadimage(&RUBBISH, _T("./images/Game1/À¬»ø.png"), 100, 100);
 	//À¬»ø
-	mciSendString(TEXT("open push rubbish.mp3 alias push"), NULL, 0, NULL);
+	mciSendString(TEXT("open Game4move.mp3 alias push"), NULL, 0, NULL);
 
 	loadimage(&rub1, _T("./images/Game1/rub1.jpg"), size_of_rub, size_of_rub);
 	loadimage(&rub2, _T("./images/Game1/rub2.jpg"), size_of_rub, size_of_rub);
@@ -230,7 +231,7 @@ int RunGame1()
 
 				score_game_of_yxb = score();
 				scorePrint(score_game_of_yxb);
-				
+
 				break;
 
 			}
@@ -405,7 +406,7 @@ int RunGame1()
 			if (GetAsyncKeyState(VK_ESCAPE)) {
 				score_game_of_yxb = score();
 				scorePrint(score_game_of_yxb);
-				
+
 
 				break;
 			}
@@ -876,7 +877,9 @@ int RunGame1()
 						//if (in_ch2_hand == 9) {
 							//in_ch2_hand = 0;
 						//}
+						mciSendString(TEXT("seek push to start"), NULL, 0, NULL);
 
+						mciSendString(TEXT("play push"), NULL, 0, NULL);
 					}
 
 				}
