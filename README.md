@@ -1,3 +1,5 @@
+可执行文件在the Journey of Carbon 文件夹下可找到，可直接运行。
+
 本程序可在安装EasyX的VS环境下运行，另：须在VS的项目->SEPD属性->高级->字符集改为**使用多字节字符集**
 
 the Journey of Carbon
