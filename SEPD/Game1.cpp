@@ -37,7 +37,6 @@ int p_y = high - 100;
 int p2_x = width / 2;
 int p2_y = high / 2;
 void scoreprint(int score);
-void;
 //第二个人与第一个初始出生地不同
 int time_sleep = 30;
 IMAGE juan1, juan2, dui1, dui2;
