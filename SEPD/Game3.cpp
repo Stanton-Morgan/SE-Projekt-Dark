@@ -520,5 +520,6 @@ int RunGame3()
 {
 	StartGame3();//初始化、载入资源
 	Quit();
+	EndBatchDraw();
 	return 0;
 }

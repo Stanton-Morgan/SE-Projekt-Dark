@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SEPD", "SEPD\SEPD.vcxproj", "{3361568A-AA89-4C57-93FB-B27F37630ECD}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "the Journey of Carbon", "the Journey of Carbon\the Journey of Carbon.vdproj", "{4CE27FFB-DCA4-443A-B580-DE99CA92BE33}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "the Journey of Carbon", "the Journey of Carbon\the Journey of Carbon.vdproj", "{162AB4AC-3F3B-4718-868E-8A986B22A197}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{3361568A-AA89-4C57-93FB-B27F37630ECD}.Release|x64.Build.0 = Release|x64
 		{3361568A-AA89-4C57-93FB-B27F37630ECD}.Release|x86.ActiveCfg = Release|Win32
 		{3361568A-AA89-4C57-93FB-B27F37630ECD}.Release|x86.Build.0 = Release|Win32
-		{4CE27FFB-DCA4-443A-B580-DE99CA92BE33}.Debug|x64.ActiveCfg = Debug
-		{4CE27FFB-DCA4-443A-B580-DE99CA92BE33}.Debug|x86.ActiveCfg = Debug
-		{4CE27FFB-DCA4-443A-B580-DE99CA92BE33}.Release|x64.ActiveCfg = Release
-		{4CE27FFB-DCA4-443A-B580-DE99CA92BE33}.Release|x86.ActiveCfg = Release
+		{162AB4AC-3F3B-4718-868E-8A986B22A197}.Debug|x64.ActiveCfg = Debug
+		{162AB4AC-3F3B-4718-868E-8A986B22A197}.Debug|x86.ActiveCfg = Debug
+		{162AB4AC-3F3B-4718-868E-8A986B22A197}.Release|x64.ActiveCfg = Release
+		{162AB4AC-3F3B-4718-868E-8A986B22A197}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
